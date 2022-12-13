@@ -2,15 +2,34 @@ img{
     width: 100px;
     height: 100px;
     border-radius: "100%";
-    border: solid 3px rgb(255,165,0);  
+    border: solid 3px #0000FF;  
 }
 
 body{
-    background-color: rgb(224, 255, 255);
+    background-color: #e0ffff;
 }
 
 a{
-    background-color:rgb(127,255,212);
+    background-color:#7fffd4;
+}
+
+.menuDosSites{
+    border: dashed;
+    padding: 15px;
+    margin: 15px;
+    background-color: #7fffd4;
+}
+
+.Topo{
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bcfefe;
+}
+
+.Topo h1{
+    margin: 20px;
+    margin-top: 40px;
 }
 
 .Projeto img{
@@ -19,8 +38,15 @@ a{
 }
 
 .Projeto{
-    background-color: rgb(135, 206, 235);
+    background-color: #87ceeb;
+    border-style: outset;
 }
+h3 {
+    text-decoration-line: underline;
+    text-decoration-thickness: 15%;
+    text-decoration-style: dotted;
+    color: #404040;
+  }
 
 .Projetos {
     display: flex;
